@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* No custom layer needed - all colors defined in tailwind.config.ts */
