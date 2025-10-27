@@ -57,7 +57,7 @@ export default function ListingDetailPage() {
     listing.images_medium?.[1],
     listing.images_medium?.[2],
     listing.images_medium?.[3],
-  ].filter(Boolean);
+  ].filter((img): img is string => Boolean(img));
 
   return (
     <div className="min-h-screen bg-light-bg dark:bg-dark-bg">
